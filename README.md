@@ -13,3 +13,8 @@ This project is for study purposes.
 
 Those topics could be updated at any time :P
 
+### Patterns Covered
+
+* Factory Pattern
+* Repository Pattern
+* System Under Test

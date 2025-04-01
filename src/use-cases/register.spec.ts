@@ -5,7 +5,7 @@ import { InMemoryUsersRepository } from "@/repositories/in-memory/in-memory-user
 import { UserAlreadyExistsError } from "./errors/user-already-exists-error";
 
 describe("Register User Case", () => {
-    it("should hash the user password", async () => {
+    it("should register a user", async () => {
         const userRepository = new InMemoryUsersRepository()
         const registerUserCase = new RegisterUseCase(userRepository)
 
